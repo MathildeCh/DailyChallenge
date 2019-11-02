@@ -1,0 +1,23 @@
+
+
+header {
+  /* background-image: image(https://as2.ftcdn.net/jpg/01/23/24/19/500_F_123241974_wxbyYbLDmUoX48bVJvpMO1o7cWKwZgxM.jpg); */
+  text-align: center;
+  float:left;
+}
+
+h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+img {
+  border: 2px solid gold;
+  width: 15%;
+}
+
+span {
+  text-align: right;
+}
+
+/* pq ça marche pas ?? pq les liste no center ? */
