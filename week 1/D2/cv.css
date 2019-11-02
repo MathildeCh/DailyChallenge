@@ -1,23 +1,74 @@
 
 
+body {
+ box-sizing: border-box;
+ position: relative;
+ font-family: fantasy;
+ padding: 40px;
+ border: 1px solid gold;
+ background-color: beige;
+ /* margin: 0px; */
+ box-shadow: 0 0 0 3px hsl(0, 0%, 80%),
+   0 0 0 7px hsl(0, 0%, 90%);
+}
+
 header {
   /* background-image: image(https://as2.ftcdn.net/jpg/01/23/24/19/500_F_123241974_wxbyYbLDmUoX48bVJvpMO1o7cWKwZgxM.jpg); */
-  text-align: center;
-  float:left;
+  /* text-align: center; */
+  /* align-self: flex-start; */
+  /* margin-right: 20%; */
+  margin: 40px;
+  padding: 5px;
+  color: skyblue;
+  /* box-shadow: 0 0 0 2px hsl(0, 0%, 80%),
+    0 0 0 5px hsl(0, 0%, 90%); */
+
 }
 
 h2 {
   text-decoration: underline;
   text-align: center;
+  color: gold;
 }
 
 img {
   border: 2px solid gold;
-  width: 15%;
+  border-radius: 4px;
+  width: 100px;
+  float: left;
+  margin: 40px;
+  /* margin-left: 5px;
+  margin-top: 5px;
+  text-align: left; */
+}
+
+.info {
+  position: absolute;
+  right: 0px;
+  width: 20%;
+  top : 200px;
+  border-left: 3px solid skyblue;
+  padding-left: 50px;
+  /* justify-self: flex-end; */
+  /* align-self: stretch; */
+}
+
+.summary, .education, .work {
+  margin-right: 25%;
+  border-bottom: 3px solid skyblue;
+  /* box-shadow: 0 0 0 2px hsl(0, 0%, 80%),
+    0 0 0 5px hsl(0, 0%, 90%); */
+  text-align: justify;
+  padding: 20px;
 }
 
 span {
-  text-align: right;
+  /* margin-left: 75%; */
+  color: red;
+}
+footer {
+  color: gray
+  /* text-align: right; */
 }
 
 /* pq ça marche pas ?? pq les liste no center ? */
