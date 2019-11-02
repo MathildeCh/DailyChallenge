@@ -1,0 +1,17 @@
+body {
+	background-color: black;
+	margin: 0px;
+	display: flex;
+	justify-content: center;
+	align-items: stretch;
+}
+
+.image {
+	min-width: 50%;
+	max-width: 100%;
+	height: auto;
+	display: block;
+  	margin: 0px;
+  	
+  }
+
