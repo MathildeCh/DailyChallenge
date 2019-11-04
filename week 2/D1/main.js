@@ -1,15 +1,12 @@
-var param = 0;
-var param1 = 0;
-var param2 = 0;
+text=""
 
-function my_f() {
-  document.InnerHTML = value;
+function my_f(x){
+
+
+	if (x !== "=") {
+		text = text + x;
+	} else {
+		text = eval(text);
+		alert(text);
+	}
 }
-
-if (param != NaN || param1 == '+' || param2 != Nan) {
-    param + param2;
-  } else (param != NaN || param1 == '-' || param2 != Nan) {
-    param - param2;
-  } else (param != NaN || param1 == '/' || param2 != Nan) {
-    alert(return param / param2);
-  }
