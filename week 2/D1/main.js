@@ -8,5 +8,6 @@ function my_f(x){
 	} else {
 		text = eval(text);
 		alert(text);
+		location.reload();
 	}
 }
