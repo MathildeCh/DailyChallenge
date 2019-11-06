@@ -9,9 +9,13 @@ console.log(arr.toString());
 // hint - use a temporary VARIABLE
 // let temp;
 // hint # 2 - use 2 loops
-for (let i = 0; i < arr.length; i ++) {
-	arr.sort();
-}
+var arr = [5,0,9,1,7,4,2,6,3,8];
+
+console.log(arr.toString());
+
+
+arr.sort(function(a, b){return b - a});
+
 
 console.log(arr.toString());
 //result- 9,8,7,6,5,4,3,2,1,0
