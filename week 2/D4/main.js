@@ -1,8 +1,8 @@
 var arr = ["hello", "world", "in", "a", "frame", "bla"]
-arr.splice(0, 0, "*********")
-arr.push("*********")
+arr.splice(0, 0, "*****")
+arr.push("*****")
 
-function star () {
+function star (arr) {
 	
 	for (i=0; i < arr.length; i++) {
 		arr[i] = arr.slice(i, i+1);
@@ -13,11 +13,9 @@ function star () {
 	}
 }
 
-alert(star(arr))
+console.log(star(arr))
 
 // function star (arri) {
 // 	"* " + item + " *" + "<br>";
 // }
 // console.log(arri.forEach(star));
-
-// [Deprecation] Synchronous XMLHttpRequest on the main thread is deprecated because of its detrimental effects to the end user's experience
