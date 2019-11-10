@@ -1,0 +1,27 @@
+* {
+	box-sizing : border-box;
+	margin : 3px 15px;
+	padding : 10px 5px;
+	font-family: arial;
+	
+}
+
+h1 { 
+	color: skyblue; 
+	text-transform: uppercase;
+}
+
+h3 {
+	color: gray;
+}
+
+input {
+	border-radius : 5px;
+}
+
+button {
+	background-color : pink;
+	border : 2px solid gray;
+	border-radius : 5px;
+	font-weight: bold;
+}
