@@ -1,0 +1,187 @@
+* {
+	box-sizing : border-box;
+}
+
+body {
+	background-image: url("img/codematrix.jpg");
+	font-family: 'Tomorrow', sans-serif;
+	margin : 15px auto;
+	/*background-repeat: no-repeat;*/
+	/*background-size: cover;*/
+	/*background-position: center;*/
+
+}
+
+#main {
+	width: 70%;
+	max-width: 70%;
+	border: 2px gray solid;
+	margin: auto;
+	padding: 20px;
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+-moz-box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+}
+
+/************************** HEADER **********************************/
+
+#header {
+	margin: 10px;
+	padding-left: 10px;
+	border: 2px solid rgba(30, 48, 110, 0.8);
+	border-radius: 5px;
+	/*padding: 5px;*/
+	height: 20em;
+	background-color: beige; /*corail :  rgb(255, 87, 51) rouge : rgb(199, 0, 57); bleu : rgb(30, 48, 110) */
+	background-image: url("img/image6.jpg");
+	/*background-repeat: no-repeat;*/
+	/*background-position: cover;*/
+	background-size: 40em;
+	color: rgb(30, 48, 110);
+
+}
+
+
+#animate{
+	padding : 20px 5px;
+	position: relative;
+	animation-name: example;
+  	animation-duration: 3s;
+}
+
+@keyframes example {
+  0%   {color:red; left:0px; top:0px;}
+  25%  {color:yellow; left:600px; top:0px;}
+  50%  {color:blue; left:600px; top:100px;}
+  75%  {color:green; left:0px; top:100px;}
+  100% {color:red; left:0px; top:0px;}
+}
+
+#animate2{
+	font-weight: bold;
+	padding-left : 550px;
+	position: relative;
+	animation-name: example2;
+  	animation-duration: 4s;
+}
+
+@keyframes example2 {
+  /*0% {color:blue; left:0px; top:0px;}*/
+  0% {color:coral; left:0px; top:0px;}
+  20%  {color:lightgreen; left:-550px; top:0px;}
+  30%  {color:green; left:-550px; top:0px;}
+  40%  {color:red; left:-550px; top:-100px;}
+  50%  {color:white; left:-550px; top:-100px;}
+  60%  {color:skyblue; left:0px; top:-100px;}
+  70%  {color:yellow; left:0px; top:-100px;}
+  80%   {color:coral; left:0px; top:0px;}
+  90%   {color:blue; left:0px; top:0px;}
+}
+
+
+/******************************* QUESTIONS *********************************/
+
+label {
+	display: inline-block;
+	padding : 5px;
+}
+
+#qu1, #qu2, #qu3, #qu4, #qu5, #qu6, #qu7, #qu8, #qu9, #qu10, #qu11 {
+	margin : 0px 20%;
+	padding: 5px;
+	text-align: center;
+}
+
+hr {
+  width: 0%;
+  min-width: 20%;
+  max-width: 100%;
+  margin: 5 auto;
+  border: none;
+  border-bottom: 1px solid #666;
+  position: relative;
+  transition: box-shadow 200ms ease-in-out;
+  box-shadow: 0px 0px 0px 0px #f9f9f9;
+}
+/*
+input + label {
+  color: #ccc;
+  font-style: italic;
+} 
+input:focus + label {
+  color: #f00;
+  font-style: normal;
+} */
+
+
+
+/*hr:activate {
+  box-shadow: 0px 4px 0px 0px #666;
+}*/
+
+/*.label {
+  position: absolute;
+  opacity: 0;
+  right: 100%;
+  margin-right: 4px;
+  padding: 4px;
+  height: 12px;
+  font-size: 14px;
+  margin-top: -12px;
+  border-radius: 2px 4px;
+  transition: opacity 200ms ease-in-out;
+  color: #666;
+  width: 100px;
+  text-align: right;
+  line-height: 1.2;
+}*/
+
+/*hr:activate {
+  opacity: 1;
+}*/
+
+h2 {
+	clear: both;
+	padding-top: 20px;
+	color : rgb(199, 0, 57);
+	text-align: center;
+}
+
+
+/********************************* BUTTON ****************************/
+
+button {
+	width: 100px;
+	margin-top: 20px;
+	margin-left: 5px;
+	padding : 10px;
+	border-radius: 5px;
+	background-color: silver;
+	font-family: 'Tomorrow', sans-serif;
+	font-weight: bold;
+	color: rgb(199, 0, 57);
+	text-align: center;
+}
+
+button:hover {
+	background : lightgray;
+	border: 1px solid rgb(199, 0, 57);
+	color:  rgb(30, 48, 110);
+	cursor: pointer;
+	-webkit-box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+	-moz-box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+	box-shadow: 0px 0px 52px -4px rgba(130,255,151,1);
+	transform: translateY(0.1rem);
+}
+
+
+/************** PROFIL *************************/
+
+#profil {
+	text-align: justify;
+	margin: 20px;
+	display : flex;
+}
+

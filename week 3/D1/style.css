@@ -1,6 +1,6 @@
 * {
 	box-sizing : border-box;
-	margin : 3px 15px;
+	margin : 3px 10px;
 	padding : 10px 5px;
 	font-family: arial;
 	
@@ -24,4 +24,8 @@ button {
 	border : 2px solid gray;
 	border-radius : 5px;
 	font-weight: bold;
+}
+
+.done {
+	text-decoration: line-through;
 }
